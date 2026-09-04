@@ -49,12 +49,7 @@ Each scorecard follows the same Baseline / Actual / Target / Ach% / G% structure
 - Data sources: hospital revenue, volume, and cost datasets (connected via Power BI's `Get data`)
 
 ## Features
-- Interactive filters:
- |---|---|
-| Country | All / by country |
-| Business Unit | All / by unit |
-| Month | All / by month |
-| Payment Type | Cash / Credit |
+- Interactive filters
 - KPI cards
 - Clean, presentation-ready layout
 ## Tools Used

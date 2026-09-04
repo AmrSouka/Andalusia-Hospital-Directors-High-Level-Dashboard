@@ -2,8 +2,6 @@
 
 A Power BI dashboard built for Andalusia Hospital's leadership team, giving directors a single view of clinical revenue, volume, and cost performance across departments and business units.
 
-![Dashboard Overview](docs/images/dashboard-overview.png)
-
 ## Overview
 
 The **Directors High Level Dashboard** consolidates hospital-wide performance into one page, tracking Revenue, Volume, and Cost per Visit (CPV) against baseline and target figures, with drill-down into individual departments and business units.
@@ -50,35 +48,29 @@ Each scorecard follows the same Baseline / Actual / Target / Ach% / G% structure
 - **Power BI Desktop** — data modeling, DAX measures, and report layout
 - Data sources: hospital revenue, volume, and cost datasets (connected via Power BI's `Get data`)
 
-## Repository Structure
-
+## Features
+- Interactive filters:
+ |---|---|
+| Country | All / by country |
+| Business Unit | All / by unit |
+| Month | All / by month |
+| Payment Type | Cash / Credit |
+- KPI cards
+- Clean, presentation-ready layout
+## Tools Used
+- Microsoft Excel
+- Pivot Tables
+- Pivot Charts
+- Dashboard Design
+- Data Analysis
+## What I Learned
+- How to structure and present business data clearly
+- How to build an effective dashboard in Excel
+- How to turn raw data into actionable insights
+- How to communicate findings through visual storytelling
 ```
-andalusia-hospital-dashboard/
-├── README.md
-├── LICENSE
-├── .gitignore
-├── docs/
-│   ├── images/
-│   │   └── dashboard-overview.png
-│   └── CHANGELOG.md
-└── pbix/
-    └── (place your .pbix file here)
-```
-
-## Getting Started
-
-1. Clone this repository.
-2. Open the `.pbix` file (once added under `pbix/`) in Power BI Desktop.
-3. Update data source connections under **Home > Transform data > Data source settings**.
-4. Refresh the data model.
-
-## Roadmap / Ideas
-
-- [ ] Add per-department drill-through pages
-- [ ] Add trend charts (Actual vs Target over time)
-- [ ] Add mobile-optimized layout
-- [ ] Document DAX measures in `docs/dax-reference.md`
-
+## About Me
+**Amr Souka**  
+Data Analyst | Accountant | SAP FI Consultant | Excel | Power BI | Data Visualization
 ## License
-
-See [LICENSE](LICENSE).
+This project is shared for portfolio and educational purposes
